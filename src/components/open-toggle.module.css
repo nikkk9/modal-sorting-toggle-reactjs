@@ -1,0 +1,12 @@
+.toggle {
+  position: absolute;
+  top: 5rem;
+  right: 3rem;
+  background-color: crimson;
+  padding: 2rem;
+  border-radius: 0.2rem;
+  color: aliceblue;
+}
+.toggle p {
+  text-align: center;
+}

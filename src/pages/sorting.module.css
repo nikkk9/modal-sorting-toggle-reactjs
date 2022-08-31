@@ -1,0 +1,48 @@
+.sorting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+}
+.sortingContainer {
+  padding: 10rem;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+th {
+  padding: 20px 15px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.2rem;
+  border-bottom: 1px solid rgb(248, 192, 203);
+  color: aliceblue;
+}
+th span {
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+th span:hover {
+  color: black;
+  transition: 0.8s ease;
+}
+td {
+  padding: 15px;
+  font-weight: 300;
+  font-size: 1rem;
+  text-align: center;
+  color: aliceblue;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.3);
+}
